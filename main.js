@@ -3,8 +3,15 @@ function AFFICHER(bouton, id) {
   var button = document.getElementById("button");
 
   if(div.style.display=="none") {
+    var temps_avant_aff_pub;
     div.style.display = "block";
     button.style.display = "none";
+    temps_avant_aff_pub = window.setTimeout(afficherPub,10000);
+
+  }
+
+  function afficherPub() {
+  alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
   }
 
 }
