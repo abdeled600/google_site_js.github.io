@@ -11,7 +11,7 @@ function AFFICHER(bouton, id) {
   }
 
   function afficherPub() {
-  alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
+  alert("Hey ta grand mère la chauve");
   }
 
 }
